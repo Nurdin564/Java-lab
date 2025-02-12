@@ -86,7 +86,6 @@ class EBook extends Book {
         this.price = calculatePrice();
     }
 
-    // Метод для расчёта цены
     private double calculatePrice() {
         if (fileFormat.equals("PDF")) {
             return fileSizeMB * 0.6;
